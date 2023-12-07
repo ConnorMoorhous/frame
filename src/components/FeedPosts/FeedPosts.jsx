@@ -6,6 +6,8 @@ import EmptyFeed from "../../assets/empty-feed.gif";
 const FeedPosts = () => {
 	const { isLoading, posts } = useGetFeedPosts();
 
+	console.log(posts);
+
 	return (
 		<Container maxW={"container.sm"} py={10} px={2}>
 			{isLoading &&

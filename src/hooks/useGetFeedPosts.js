@@ -25,8 +25,10 @@ const useGetFeedPosts = () => {
             try {
                 const response = await client.graphql({ query: listPosts });
                 const feedPosts = response.data.listPosts.items;
+                
+                console.log(feedPosts);
 
-                feedPosts.sort((a, b) => b.createdAt - a.createdAt);
+                feedPosts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
                 setPosts(feedPosts);
             } catch (error) {
                 showToast("Error", error.message, "error");
