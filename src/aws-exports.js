@@ -3,10 +3,10 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-2",
-    "aws_cognito_identity_pool_id": "us-east-2:01c87683-cbe6-4abe-9cb4-4759c14aa796",
+    "aws_cognito_identity_pool_id": "us-east-2:57f2c6b9-677b-440d-98ae-5d21c8938fdf",
     "aws_cognito_region": "us-east-2",
-    "aws_user_pools_id": "us-east-2_X2gdcDC3q",
-    "aws_user_pools_web_client_id": "2m769eltihpb0sbrap6nttdlok",
+    "aws_user_pools_id": "us-east-2_ynPmCgifx",
+    "aws_user_pools_web_client_id": "5m3250ef0jb58hsrlburapcrql",
     "oauth": {},
     "aws_cognito_username_attributes": [
         "EMAIL"
@@ -26,12 +26,12 @@ const awsmobile = {
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
     ],
-    "aws_user_files_s3_bucket": "test-bucket-465080142-dev",
+    "aws_user_files_s3_bucket": "frame-dev-bucket185329-dev",
     "aws_user_files_s3_bucket_region": "us-east-2",
-    "aws_appsync_graphqlEndpoint": "https://kp7hcn66j5fffmqupupsd2p7qq.appsync-api.us-east-2.amazonaws.com/graphql",
+    "aws_appsync_graphqlEndpoint": "https://sv4ls63psbajbj6jk23exwph3u.appsync-api.us-east-2.amazonaws.com/graphql",
     "aws_appsync_region": "us-east-2",
     "aws_appsync_authenticationType": "API_KEY",
-    "aws_appsync_apiKey": "da2-64qfe2egfzhizeovvbdgslfaka"
+    "aws_appsync_apiKey": "da2-tfi4kpenw5fprh7i7rlzmq7rsu"
 };
 
 

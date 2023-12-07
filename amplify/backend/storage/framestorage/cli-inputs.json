@@ -1,0 +1,16 @@
+{
+  "resourceName": "framestorage",
+  "policyUUID": "a6350320",
+  "bucketName": "frame-dev-bucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
