@@ -1,0 +1,16 @@
+{
+  "resourceName": "framedemostorage",
+  "policyUUID": "5d8e9572",
+  "bucketName": "frame-demo-bucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

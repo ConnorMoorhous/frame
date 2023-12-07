@@ -29,7 +29,7 @@ const PageLayout = ({ children }) => {
     };
 
     const canRenderSidebar = pathname !== "/auth" && user;
-    const canRenderNavbar = !user && !loading && pathname !== "/auth";
+    const canRenderNavbar = !user && !loading && pathname !== "/auth" && pathname !== "/";
     const checkingUserIsAuth = !user && loading;
 
     if (checkingUserIsAuth) return <PageLayoutSpinner />;
